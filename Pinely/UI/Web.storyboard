@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nwc-qG-o9t">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Web View Controller-->
+        <scene sceneID="W9k-kK-KTl">
+            <objects>
+                <viewController storyboardIdentifier="Web" useStoryboardIdentifierAsRestorationIdentifier="YES" id="nwc-qG-o9t" customClass="WebViewController" customModule="Pinely" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rxc-hW-g9s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ii1-ur-TLK">
+                                <rect key="frame" x="24" y="56" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="S5x-Sj-0tS"/>
+                                    <constraint firstAttribute="height" constant="32" id="hP2-DI-dde"/>
+                                </constraints>
+                                <color key="tintColor" name="MainForegroundColor"/>
+                                <state key="normal" image="BtnCloseTemplate"/>
+                                <connections>
+                                    <action selector="goBack" destination="nwc-qG-o9t" eventType="touchUpInside" id="8fX-Se-hZ8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Términos y Condiciones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlP-7w-Wli">
+                                <rect key="frame" x="64" y="62" width="302" height="20"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="17"/>
+                                <color key="textColor" name="MainForegroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="obf-wE-5wW">
+                                <rect key="frame" x="0.0" y="104" width="414" height="1"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="tgs-r1-u4c"/>
+                                </constraints>
+                            </view>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L9A-NV-cQG">
+                                <rect key="frame" x="16" y="105" width="382" height="791"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yXv-S3-62R"/>
+                        <color key="backgroundColor" name="MainBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="obf-wE-5wW" firstAttribute="top" secondItem="ii1-ur-TLK" secondAttribute="bottom" constant="16" id="Awi-fk-RAU"/>
+                            <constraint firstAttribute="trailing" secondItem="L9A-NV-cQG" secondAttribute="trailing" constant="16" id="D6y-ak-1t5"/>
+                            <constraint firstItem="ii1-ur-TLK" firstAttribute="leading" secondItem="yXv-S3-62R" secondAttribute="leading" constant="24" id="Gu0-e3-s9L"/>
+                            <constraint firstItem="vlP-7w-Wli" firstAttribute="leading" secondItem="ii1-ur-TLK" secondAttribute="trailing" constant="8" id="Huo-L6-136"/>
+                            <constraint firstItem="L9A-NV-cQG" firstAttribute="leading" secondItem="Rxc-hW-g9s" secondAttribute="leading" constant="16" id="I6K-RP-dnN"/>
+                            <constraint firstItem="yXv-S3-62R" firstAttribute="trailing" secondItem="vlP-7w-Wli" secondAttribute="trailing" constant="48" id="Jo3-Vp-l1u"/>
+                            <constraint firstItem="obf-wE-5wW" firstAttribute="leading" secondItem="Rxc-hW-g9s" secondAttribute="leading" id="Ml5-k3-TKG"/>
+                            <constraint firstItem="ii1-ur-TLK" firstAttribute="top" secondItem="yXv-S3-62R" secondAttribute="top" constant="12" id="Qpk-UX-Z1R"/>
+                            <constraint firstAttribute="trailing" secondItem="obf-wE-5wW" secondAttribute="trailing" id="SnI-C5-sgZ"/>
+                            <constraint firstItem="L9A-NV-cQG" firstAttribute="top" secondItem="obf-wE-5wW" secondAttribute="bottom" id="gCr-tK-9VQ"/>
+                            <constraint firstAttribute="bottom" secondItem="L9A-NV-cQG" secondAttribute="bottom" id="mv9-eU-LL9"/>
+                            <constraint firstItem="vlP-7w-Wli" firstAttribute="centerY" secondItem="ii1-ur-TLK" secondAttribute="centerY" id="oDK-XZ-D0q"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Yka-SO-ynj"/>
+                    <connections>
+                        <outlet property="lblTitle" destination="vlP-7w-Wli" id="Bqx-zZ-Z41"/>
+                        <outlet property="wvWeb" destination="L9A-NV-cQG" id="tSv-4M-w4A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="go6-Go-XOy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2316" y="946"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BtnCloseTemplate" width="17.5" height="17.5"/>
+        <namedColor name="MainBackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MainForegroundColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,659 @@
+
+/*Class = "UILabel"; text = "Málaga"; ObjectID = "0Wy-cm-8tj";*/
+"0Wy-cm-8tj.text" = "Malaga";
+
+/*Class = "UILabel"; text = "DESTACADO"; ObjectID = "0f5-Kz-MwJ";*/
+"0f5-Kz-MwJ.text" = "OUTSTANDING";
+
+/*Class = "UILabel"; text = "Crear y continuar"; ObjectID = "0ie-wi-aq8";*/
+"0ie-wi-aq8.text" = "Create and continue";
+
+/*Class = "UILabel"; text = "Soporte al cliente"; ObjectID = "0ug-ML-VWi";*/
+"0ug-ML-VWi.text" = "Customer Support";
+
+/*Class = "UILabel"; text = "Añadir nueva tarjeta"; ObjectID = "0xU-gi-JSj";*/
+"0xU-gi-JSj.text" = "Add new card";
+
+/*Class = "UILabel"; text = "Información"; ObjectID = "0xw-IJ-vET";*/
+"0xw-IJ-vET.text" = "Information";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "1BP-GC-55L";*/
+"1BP-GC-55L.text" = "...";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "1TN-L9-sXJ";*/
+"1TN-L9-sXJ.text" = "...";
+
+/*Class = "UILabel"; text = "Queremos que tu experiencia sea excelente, por eso necesitamos saber tu ubicación para saber que hay en tu zona y mostrarte los mejores resultados."; ObjectID = "1mA-FJ-0OV";*/
+"1mA-FJ-0OV.text" = "We want your experience to be excellent, so we need to know your location to know what is in your area and show you the best results";
+
+/*Class = "UILabel"; text = "Ubicación"; ObjectID = "2AS-8Z-wQp";*/
+"2AS-8Z-wQp.text" = "Location";
+
+/*Class = "UILabel"; text = "Código promocional:"; ObjectID = "2I2-u7-XyS";*/
+"2I2-u7-XyS.text" = "Promotional code:";
+
+/*Class = "UILabel"; text = "Información del evento:"; ObjectID = "2N7-cI-iGz";*/
+"2N7-cI-iGz.text" = "Event information:";
+
+/*Class = "UITextField"; placeholder = "DD/MM/YYYY"; ObjectID = "2Nq-qg-DSH";*/
+"2Nq-qg-DSH.placeholder" = "DD / MM / YYYY";
+
+/*Class = "UILabel"; text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+est laborum."; ObjectID = "2SV-5v-JB7";*/
+"2SV-5v-JB7.text" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\nTempo incididunt ut labor et pain magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea\ncommodo consequat. Duis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur. Excepteur synt occaecat\ncupidatat non proident, sunt in culpa qui officia deserunt mollit anim id\nest laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\nTempo incididunt ut labor et pain magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea\ncommodo consequat. Duis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur. Excepteur synt occaecat\ncupidatat non proident, sunt in culpa qui officia deserunt mollit anim id\nest laborum.";
+
+/*Class = "UITextField"; placeholder = "Haz click para seleccionar"; ObjectID = "3Ch-Zc-jzA";*/
+"3Ch-Zc-jzA.placeholder" = "Click to select";
+
+/*Class = "UILabel"; text = "Cambiar mi usuario"; ObjectID = "3fC-oU-HfR";*/
+"3fC-oU-HfR.text" = "Change my username";
+
+/*Class = "UILabel"; text = "x2"; ObjectID = "3rc-qL-C5q";*/
+"3rc-qL-C5q.text" = "x2";
+
+/*Class = "UIButton"; normalTitle = "Cancelar"; ObjectID = "4cZ-pX-f1n";*/
+"4cZ-pX-f1n.normalTitle" = "Cancel";
+
+/*Class = "UILabel"; text = "Title"; ObjectID = "4mw-Ce-9M6";*/
+"4mw-Ce-9M6.text" = "Title";
+
+/*Class = "UILabel"; text = "Jueves 12"; ObjectID = "4x3-G4-n7B";*/
+"4x3-G4-n7B.text" = "Thursday, 12";
+
+/*Class = "UILabel"; text = "Cargando..."; ObjectID = "5Ac-Ee-Y4I";*/
+"5Ac-Ee-Y4I.text" = "Loading...";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "5I7-E0-pjz";*/
+"5I7-E0-pjz.text" = "...";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "6Mv-1d-Spg";*/
+"6Mv-1d-Spg.text" = "...";
+
+/*Class = "UILabel"; text = "Código promocional:"; ObjectID = "6c8-7o-h6Y";*/
+"6c8-7o-h6Y.text" = "Promotional code:";
+
+/*Class = "UILabel"; text = "Resumen del pago"; ObjectID = "6nd-lP-5z7";*/
+"6nd-lP-5z7.text" = "Payment summary";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "75e-Ac-cDu";*/
+"75e-Ac-cDu.text" = "...";
+
+/*Class = "UILabel"; text = "Notificaciones"; ObjectID = "7bw-bi-ib4";*/
+"7bw-bi-ib4.text" = "Notifications";
+
+/*Class = "UIButton"; normalTitle = "Cambiar nombre de usuario"; ObjectID = "80h-6a-9a2";*/
+"80h-6a-9a2.normalTitle" = "Change username";
+
+/*Class = "UILabel"; text = "Cantidad reembolsada:"; ObjectID = "8BN-mR-Wa3";*/
+"8BN-mR-Wa3.text" = "Amount refunded:";
+
+/*Class = "UITextField"; placeholder = "Teléfono"; ObjectID = "8gb-dH-6X1";*/
+"8gb-dH-6X1.placeholder" = "Telephone";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "8oT-YO-PXA";*/
+"8oT-YO-PXA.text" = "...";
+
+/*Class = "UIButton"; normalTitle = "Política de privacidad"; ObjectID = "8yZ-tt-hVf";*/
+"8yZ-tt-hVf.normalTitle" = "Privacy policy";
+
+/*Class = "UIButton"; normalTitle = "Cambiar contraseña"; ObjectID = "98X-XE-BWd";*/
+"98X-XE-BWd.normalTitle" = "Change password";
+
+/*Class = "UILabel"; text = "¡No hay quedadas cerca de tí!"; ObjectID = "9cy-Pm-3Uf";*/
+"9cy-Pm-3Uf.text" = "There are no hangouts near you!";
+
+/*Class = "UILabel"; text = "Introducir una dirección"; ObjectID = "9vL-6x-3MV";*/
+"9vL-6x-3MV.text" = "Enter an address";
+
+/*Class = "UIButton"; normalTitle = "INFORMACIÓN"; ObjectID = "ADe-n0-HWI";*/
+"ADe-n0-HWI.normalTitle" = "INFORMATION";
+
+/*Class = "UILabel"; text = "Envío de notificaciones promocionales"; ObjectID = "AHo-dn-7lm";*/
+"AHo-dn-7lm.text" = "Promotional notifications";
+
+/*Class = "UILabel"; text = "CAMBIAR MI UBICACIÓN"; ObjectID = "AaS-pX-7JF";*/
+"AaS-pX-7JF.text" = "CHANGE MY LOCATION";
+
+/*Class = "UILabel"; text = "Apellidos"; ObjectID = "BFV-Hd-klN";*/
+"BFV-Hd-klN.text" = "Surnames";
+
+/*Class = "UITextField"; placeholder = "DNI/NIE"; ObjectID = "BIg-kD-V47";*/
+"BIg-kD-V47.placeholder" = "DNI / NIE";
+
+/*Class = "UITextField"; placeholder = "DD/MM/YYYY"; ObjectID = "BLx-42-h4H";*/
+"BLx-42-h4H.placeholder" = "DD / MM / YYYY";
+
+/*Class = "UILabel"; text = "Seleccionar"; ObjectID = "BTq-8B-03S";*/
+"BTq-8B-03S.text" = "Select and continue";
+
+/*Class = "UILabel"; text = "Email"; ObjectID = "Bcb-A6-Yp9";*/
+"Bcb-A6-Yp9.text" = "E-mail";
+
+/*Class = "UILabel"; text = "0,00€"; ObjectID = "C3W-pZ-gBT";*/
+"C3W-pZ-gBT.text" = "€ 0.00";
+
+/*Class = "UIButton"; normalTitle = "Código abierto y menciones"; ObjectID = "Czz-9G-dF8";*/
+"Czz-9G-dF8.normalTitle" = "Open source";
+
+/*Class = "UILabel"; text = "1"; ObjectID = "Ec4-RI-UCd";*/
+"Ec4-RI-UCd.text" = "one";
+
+/*Class = "UITextField"; placeholder = "Email"; ObjectID = "Esv-US-qw7";*/
+"Esv-US-qw7.placeholder" = "E-mail";
+
+/*Class = "UILabel"; text = "Title"; ObjectID = "F8E-2G-zDm";*/
+"F8E-2G-zDm.text" = "Title";
+
+/*Class = "UILabel"; text = "Precio unitario:"; ObjectID = "F9S-il-hNW";*/
+"F9S-il-hNW.text" = "Unit price:";
+
+/*Class = "UILabel"; text = "Precio unitario:"; ObjectID = "FCI-uw-4oe";*/
+"FCI-uw-4oe.text" = "Unit price:";
+
+/*Class = "UILabel"; text = "Cantidad a pagar:"; ObjectID = "FXr-hr-hlm";*/
+"FXr-hr-hlm.text" = "Amount to pay:";
+
+/*Class = "UILabel"; text = "x2 entradas"; ObjectID = "GJk-oB-S0e";*/
+"GJk-oB-S0e.text" = "x2 tickets";
+
+/*Class = "UILabel"; text = "El encargado te pedirá este
+código para poder validar tu
+entrada, cada código es personal
+e intransferible. ¡Cuídalo bien!"; ObjectID = "GhF-1S-I2U";*/
+"GhF-1S-I2U.text" = "The manager will ask you for this\ncode to validate your\ninput, each code is personal\nand non-transferable. Take good care of it!";
+
+/*Class = "UILabel"; text = "Contribuir con Pinely"; ObjectID = "Grk-Jf-xzi";*/
+"Grk-Jf-xzi.text" = "Contribute to Pinely";
+
+/*Class = "UILabel"; text = "Edad mínima"; ObjectID = "HFw-5i-I3Q";*/
+"HFw-5i-I3Q.text" = "Minimum age";
+
+/*Class = "UILabel"; text = "*Limitado solo para las 50 primeras personas."; ObjectID = "HJY-3N-NyA";*/
+"HJY-3N-NyA.text" = "* Limited only for the first 50 people.";
+
+/*Class = "UILabel"; text = "Saldo de tu monedero:"; ObjectID = "HNr-BK-LXq";*/
+"HNr-BK-LXq.text" = "Balance of your wallet:";
+
+/*Class = "UILabel"; text = "28/07/2020"; ObjectID = "Htu-s5-Af1";*/
+"Htu-s5-Af1.text" = "07/28/2020";
+
+/*Class = "UILabel"; text = "Jueves 20"; ObjectID = "HxO-aJ-MpT";*/
+"HxO-aJ-MpT.text" = "Thursday 20";
+
+/*Class = "UILabel"; text = "Cerca"; ObjectID = "IKq-Ih-jfg";*/
+"IKq-Ih-jfg.text" = "Near";
+
+/*Class = "UILabel"; text = "Entradas seleccionadas:"; ObjectID = "IWa-Di-gyY";*/
+"IWa-Di-gyY.text" = "Selected tickets:";
+
+/*Class = "UILabel"; text = "Saldo utilizado:"; ObjectID = "InT-St-0Ti";*/
+"InT-St-0Ti.text" = "Balance used:";
+
+/*Class = "UIButton"; normalTitle = "Editar perfil"; ObjectID = "Iyg-pB-zs6";*/
+"Iyg-pB-zs6.normalTitle" = "Edit profile information";
+
+/*Class = "UILabel"; text = "Pagar 30,99€"; ObjectID = "Jb3-BC-tTi";*/
+"Jb3-BC-tTi.text" = "Pay € 30.99";
+
+/*Class = "UILabel"; text = "Subtitle"; ObjectID = "Jy5-Cv-cNG";*/
+"Jy5-Cv-cNG.text" = "Subtitle";
+
+/*Class = "UIButton"; normalTitle = "—"; ObjectID = "K4X-Kg-khl";*/
+"K4X-Kg-khl.normalTitle" = "-";
+
+/*Class = "UILabel"; text = "Apellidos"; ObjectID = "Kg6-Gn-kcf";*/
+"Kg6-Gn-kcf.text" = "Surnames";
+
+/*Class = "UILabel"; text = "Label"; ObjectID = "LUl-E0-Sx1";*/
+"LUl-E0-Sx1.text" = "Label";
+
+/*Class = "UILabel"; text = "en Málaga, España"; ObjectID = "LxS-Z4-i4v";*/
+"LxS-Z4-i4v.text" = "in Malaga, Spain";
+
+/*Class = "UIButton"; normalTitle = "Agotado"; ObjectID = "M5D-nH-bSx";*/
+"M5D-nH-bSx.normalTitle" = "Sold out 😢";
+
+/*Class = "UILabel"; text = "Contribuir con Pinely"; ObjectID = "ML3-bR-4hF";*/
+"ML3-bR-4hF.text" = "Contribute to Pinely";
+
+/*Class = "UILabel"; text = "No hemos encontrado conductores privados en esta zona, inténtalo de nuevo más tarde"; ObjectID = "N8X-Eo-lfn";*/
+"N8X-Eo-lfn.text" = "We have not found any private drivers in this area, please try again later";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "NVV-3I-VVD";*/
+"NVV-3I-VVD.text" = "...";
+
+/*Class = "UILabel"; text = "Title"; ObjectID = "Nfx-C3-Fkw";*/
+"Nfx-C3-Fkw.text" = "Title";
+
+/*Class = "UILabel"; text = "20 Mayo 2020"; ObjectID = "O6f-q6-I07";*/
+"O6f-q6-I07.text" = "20 May 2020";
+
+/*Class = "UILabel"; text = "30,99€"; ObjectID = "OBn-yB-lJW";*/
+"OBn-yB-lJW.text" = "€ 30.99";
+
+/*Class = "UILabel"; text = "¡No hay transporte privado cerca de tí!"; ObjectID = "OEf-ve-G73";*/
+"OEf-ve-G73.text" = "There is no private transport near you!";
+
+/*Class = "UILabel"; text = "Usar mi ubicación"; ObjectID = "Osr-Ie-bnV";*/
+"Osr-Ie-bnV.text" = "Use my location";
+
+/*Class = "UILabel"; text = "Editar perfil"; ObjectID = "PYY-J8-lti";*/
+"PYY-J8-lti.text" = "Edit profile";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "Pe6-Vf-gNW";*/
+"Pe6-Vf-gNW.text" = "...";
+
+/*Class = "UILabel"; text = "No hay entradas a la venta por ahora"; ObjectID = "PlW-hU-PKV";*/
+"PlW-hU-PKV.text" = "No tickets on sale for now";
+
+/*Class = "UILabel"; text = "Ver mis entradas"; ObjectID = "Q14-w9-p1m";*/
+"Q14-w9-p1m.text" = "See my entries";
+
+/*Class = "UILabel"; text = "Cerca"; ObjectID = "Q1T-AJ-N5a";*/
+"Q1T-AJ-N5a.text" = "Near";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "QMc-aW-VEd";*/
+"QMc-aW-VEd.text" = "...";
+
+/*Class = "UILabel"; text = "Guardar cambios"; ObjectID = "QWg-ed-2vv";*/
+"QWg-ed-2vv.text" = "Save Changes";
+
+/*Class = "UILabel"; text = "Enviar a mi email"; ObjectID = "QYF-au-tBZ";*/
+"QYF-au-tBZ.text" = "Send to my email";
+
+/*Class = "UILabel"; text = "Métodos de pago"; ObjectID = "Qm7-ii-mVW";*/
+"Qm7-ii-mVW.text" = "Payment methods";
+
+/*Class = "UILabel"; text = "Gastos de gestión:"; ObjectID = "R1E-Xx-7fY";*/
+"R1E-Xx-7fY.text" = "Administration fees:";
+
+/*Class = "UILabel"; text = "Subtitle"; ObjectID = "R34-UM-gEE";*/
+"R34-UM-gEE.text" = "Subtitle";
+
+/*Class = "UILabel"; text = "Soporte al cliente"; ObjectID = "RZE-XD-TyO";*/
+"RZE-XD-TyO.text" = "Customer Support";
+
+/*Class = "UILabel"; text = "¿Cumples con algún requisito?"; ObjectID = "Rjv-Gp-emB";*/
+"Rjv-Gp-emB.text" = "Do you meet any requirements?";
+
+/*Class = "UILabel"; text = "Precio: 15,00€"; ObjectID = "TD6-aF-wrr";*/
+"TD6-aF-wrr.text" = "Price: € 15.00";
+
+/*Class = "UILabel"; text = "Entrada: 1 copa"; ObjectID = "TV6-8s-wev";*/
+"TV6-8s-wev.text" = "Entrance: 1 drink";
+
+/*Class = "UILabel"; text = "Resumen del pago"; ObjectID = "TZk-ij-UCA";*/
+"TZk-ij-UCA.text" = "Payment summary";
+
+/*Class = "UIButton"; normalTitle = "Mis métodos de pago"; ObjectID = "Tkg-Al-YK6";*/
+"Tkg-Al-YK6.normalTitle" = "Payment methods";
+
+/*Class = "UILabel"; text = "Gestionas o eres dueño de una sala y quieres poner a la venta las entradas."; ObjectID = "TwO-oB-VLo";*/
+"TwO-oB-VLo.text" = "You manage or own a room and want to put the tickets on sale.";
+
+/*Class = "UIButton"; normalTitle = "＋"; ObjectID = "UlZ-uf-Dvw";*/
+"UlZ-uf-Dvw.normalTitle" = "＋";
+
+/*Class = "UILabel"; text = "Envío de notificaciones sobre tu cuenta"; ObjectID = "UuN-C2-c6C";*/
+"UuN-C2-c6C.text" = "Notifications about my account";
+
+/*Class = "UITextField"; placeholder = "Email"; ObjectID = "Uw3-8g-lQF";*/
+"Uw3-8g-lQF.placeholder" = "E-mail";
+
+/*Class = "UILabel"; text = "Busca algo..."; ObjectID = "V2d-8j-rfx";*/
+"V2d-8j-rfx.text" = "Search something...";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "VF5-xb-EAy";*/
+"VF5-xb-EAy.text" = "...";
+
+/*Class = "UILabel"; text = "Entrada: 1 copa"; ObjectID = "Vwx-ra-YHf";*/
+"Vwx-ra-YHf.text" = "Entrance: 1 drink";
+
+/*Class = "UILabel"; text = "en Málaga, España"; ObjectID = "W3D-KY-5Ws";*/
+"W3D-KY-5Ws.text" = "in Malaga, Spain";
+
+/*Class = "UILabel"; text = "Entradas compradas:"; ObjectID = "WPf-Xr-Zas";*/
+"WPf-Xr-Zas.text" = "Tickets purchased:";
+
+/*Class = "UILabel"; text = "¿Para qué sirve?"; ObjectID = "WTD-cN-m2Y";*/
+"WTD-cN-m2Y.text" = "What is it for?";
+
+/*Class = "UILabel"; text = "¡Esta sala no vende entradas con Pinely!"; ObjectID = "X2o-ac-fkf";*/
+"X2o-ac-fkf.text" = "This room does not sell tickets with Pinely!";
+
+/*Class = "UILabel"; text = "OCIO"; ObjectID = "Z3W-LA-pot";*/
+"Z3W-LA-pot.text" = "LEISURE";
+
+/*Class = "UILabel"; text = "Método de pago utilizado:"; ObjectID = "Z7R-Mk-kaP";*/
+"Z7R-Mk-kaP.text" = "Payment method used:";
+
+/*Class = "UILabel"; text = "No somos lo suficientemente popular en tu zona como para mostrarte lo más destacado. ¿Conoces algo cerca? ¡Échanos un cable!"; ObjectID = "ZCG-ef-vf4";*/
+"ZCG-ef-vf4.text" = "We are not popular enough in your area to show you the highlights. Do you know anything close? Help us!";
+
+/*Class = "UILabel"; text = "Seleccionar screenshot"; ObjectID = "ZTq-4p-U7a";*/
+"ZTq-4p-U7a.text" = "Select screenshot";
+
+/*Class = "UILabel"; text = "¡Sin notificaciones!"; ObjectID = "ZbF-4K-Edw";*/
+"ZbF-4K-Edw.text" = "No notifications!";
+
+/*Class = "UILabel"; text = "Desde"; ObjectID = "a9x-o8-UjD";*/
+"a9x-o8-UjD.text" = "Since";
+
+/*Class = "UILabel"; text = "Tu cuenta no tiene entradas :("; ObjectID = "aZ4-2l-bnm";*/
+"aZ4-2l-bnm.text" = "Your account has no entries :(";
+
+/*Class = "UILabel"; text = "Información requerida"; ObjectID = "aob-4w-MV7";*/
+"aob-4w-MV7.text" = "Required information";
+
+/*Class = "UILabel"; text = "Label"; ObjectID = "arB-mc-U5Z";*/
+"arB-mc-U5Z.text" = "Label";
+
+/*Class = "UIButton"; normalTitle = "Aviso legal"; ObjectID = "b7U-N7-77M";*/
+"b7U-N7-77M.normalTitle" = "Legal advise";
+
+"5C9-KC-VF3.normalTitle" = "Etical code";
+
+/*Class = "UILabel"; text = "30,99€"; ObjectID = "bbT-L4-UHc";*/
+"bbT-L4-UHc.text" = "€ 30.99";
+
+/*Class = "UILabel"; text = "Nombre"; ObjectID = "bjF-AJ-U52";*/
+"bjF-AJ-U52.text" = "Name";
+
+/*Class = "UILabel"; text = "Subtitle"; ObjectID = "cWf-0Y-J7I";*/
+"cWf-0Y-J7I.text" = "Subtitle";
+
+/*Class = "UILabel"; text = "Lorem ipsum dolor sit amet"; ObjectID = "cey-LW-9Rz";*/
+"cey-LW-9Rz.text" = "Lorem ipsum pain sit amet";
+
+/*Class = "UILabel"; text = "en Málaga, España"; ObjectID = "clh-Qq-LgM";*/
+"clh-Qq-LgM.text" = "in Malaga, Spain";
+
+/*Class = "UILabel"; text = "Haz una screenshot"; ObjectID = "d0N-Z0-cym";*/
+"d0N-Z0-cym.text" = "Take a screenshot";
+
+/*Class = "UIButton"; normalTitle = "EVENTOS"; ObjectID = "dgU-Xi-lgV";*/
+"dgU-Xi-lgV.normalTitle" = "EVENTS";
+
+/*Class = "UIButton"; normalTitle = "Historial de compras"; ObjectID = "dkc-64-T3j";*/
+"dkc-64-T3j.normalTitle" = "Shopping history";
+
+/*Class = "UILabel"; text = "Método de reembolso:"; ObjectID = "e0U-hV-4dV";*/
+"e0U-hV-4dV.text" = "Refund method:";
+
+/*Class = "UITextField"; placeholder = "Introduce el nombre del lugar"; ObjectID = "e25-np-yYn";*/
+"e25-np-yYn.placeholder" = "Enter the name of the place";
+
+/*Class = "UILabel"; text = "¡Hola $name!, estás apunto de unirte como uno de nuestros colaboradores y poder juntos llevar tu negocio al siguiente nivel."; ObjectID = "eoe-zn-ZBc";*/
+"eoe-zn-ZBc.text" = "Hello $ name! You are about to join as one of our collaborators and together take your business to the next level.";
+
+/*Class = "UILabel"; text = "Precio: 15,00€"; ObjectID = "esC-FC-3Au";*/
+"esC-FC-3Au.text" = "Price: € 15.00";
+
+/*Class = "UILabel"; text = "0,99€"; ObjectID = "f9o-eW-emO";*/
+"f9o-eW-emO.text" = "€ 0.99";
+
+/*Class = "UILabel"; text = "Title"; ObjectID = "fAe-LR-pSd";*/
+"fAe-LR-pSd.text" = "Title";
+
+/*Class = "UILabel"; text = "Detalles de tu entrada"; ObjectID = "fFM-GH-Uto";*/
+"fFM-GH-Uto.text" = "Your ticket details";
+
+/*Class = "UIButton"; normalTitle = "CANJEADAS"; ObjectID = "fFS-SU-EOc";*/
+"fFS-SU-EOc.normalTitle" = "REDEEMED";
+
+/*Class = "UIButton"; normalTitle = "ACTIVAS"; ObjectID = "fHC-Lv-0mv";*/
+"fHC-Lv-0mv.normalTitle" = "ACTIVE";
+
+/*Class = "UILabel"; text = "Método de pago:"; ObjectID = "fZu-TG-h64";*/
+"fZu-TG-h64.text" = "Payment method:";
+
+/*Class = "UILabel"; text = "Edad"; ObjectID = "fdo-my-2kW";*/
+"fdo-my-2kW.text" = "Age";
+
+/*Class = "UILabel"; text = "15,00€"; ObjectID = "frP-bw-5YR";*/
+"frP-bw-5YR.text" = "€ 15.00";
+
+/*Class = "UITextField"; placeholder = "Apellidos"; ObjectID = "g8o-4T-auA";*/
+"g8o-4T-auA.placeholder" = "Surnames";
+
+/*Class = "UILabel"; text = "Nombre"; ObjectID = "gAH-9I-xmJ";*/
+"gAH-9I-xmJ.text" = "Name";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "gBP-tS-G69";*/
+"gBP-tS-G69.text" = "...";
+
+/*Class = "UIButton"; normalTitle = "Cerrar sesión"; ObjectID = "gGc-v9-zDn";*/
+"gGc-v9-zDn.normalTitle" = "Log-out";
+
+/*Class = "UILabel"; text = "Subtitle"; ObjectID = "gLR-IL-QVy";*/
+"gLR-IL-QVy.text" = "Subtitle";
+
+/*Class = "UIButton"; normalTitle = "Términos y Condiciones"; ObjectID = "gga-7b-sgX";*/
+"gga-7b-sgX.normalTitle" = "Terms and conditions";
+
+"ZIt-dG-R8x.normalTitle" = "Mobile phone verification";
+
+/*Class = "UITextField"; placeholder = "Haz click para seleccionar"; ObjectID = "gxq-LE-QLx";*/
+"gxq-LE-QLx.placeholder" = "Click to select";
+
+/*Class = "UILabel"; text = "Entradas reembolsadas:"; ObjectID = "h0p-3G-cz8";*/
+"h0p-3G-cz8.text" = "Refunded tickets:";
+
+/*Class = "UILabel"; text = "Enseña el código QR"; ObjectID = "hG1-gI-LXK";*/
+"hG1-gI-LXK.text" = "Show the QR code";
+
+/*Class = "UIButton"; normalTitle = "FOTOS"; ObjectID = "hqv-Vw-qbE";*/
+"hqv-Vw-qbE.normalTitle" = "PHOTOS";
+
+/*Class = "UILabel"; text = "•••• "; ObjectID = "i9y-sV-ItH";*/
+"i9y-sV-ItH.text" = "•••• ";
+
+/*Class = "UILabel"; text = "Cerca"; ObjectID = "iHg-q8-yEn";*/
+"iHg-q8-yEn.text" = "Near";
+
+/*Class = "UILabel"; text = "Vestimenta"; ObjectID = "iXQ-7g-PUC";*/
+"iXQ-7g-PUC.text" = "Clothing";
+
+/*Class = "UILabel"; text = "Teléfono"; ObjectID = "iiR-vQ-V8A";*/
+"iiR-vQ-V8A.text" = "Telephone";
+
+/*Class = "UILabel"; text = "Gastos de gestión:"; ObjectID = "isT-pU-ChA";*/
+"isT-pU-ChA.text" = "Administration fees:";
+
+/*Class = "UILabel"; text = "Cantidad pagada:"; ObjectID = "kKS-Oz-NP7";*/
+"kKS-Oz-NP7.text" = "Amount paid:";
+
+/*Class = "UILabel"; text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+est laborum."; ObjectID = "kNd-Bh-Rqn";*/
+"kNd-Bh-Rqn.text" = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\nTempo incididunt ut labor et pain magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea\ncommodo consequat. Duis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur. Excepteur synt occaecat\ncupidatat non proident, sunt in culpa qui officia deserunt mollit anim id\nest laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\nTempo incididunt ut labor et pain magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea\ncommodo consequat. Duis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur. Excepteur synt occaecat\ncupidatat non proident, sunt in culpa qui officia deserunt mollit anim id\nest laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\nTempo incididunt ut labor et pain magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea\ncommodo consequat. Duis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur. Excepteur synt occaecat\ncupidatat non proident, sunt in culpa qui officia deserunt mollit anim id\nest laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod\nTempo incididunt ut labor et pain magna aliqua. Ut enim ad minim\nveniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea\ncommodo consequat. Duis aute irure dolor in reprehenderit in voluptate\nvelit esse cillum dolore eu fugiat nulla pariatur. Excepteur synt occaecat\ncupidatat non proident, sunt in culpa qui officia deserunt mollit anim id\nest laborum.";
+
+/*Class = "UILabel"; text = "Siguiente"; ObjectID = "ksa-Fi-UFR";*/
+"ksa-Fi-UFR.text" = "Next";
+
+/*Class = "UILabel"; text = "Detalles de tu compra"; ObjectID = "lD6-dy-mKT";*/
+"lD6-dy-mKT.text" = "Details of your purchase";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "ljf-EQ-gOs";*/
+"ljf-EQ-gOs.text" = "...";
+
+/*Class = "UILabel"; text = "Teléfono"; ObjectID = "m7D-5A-1QJ";*/
+"m7D-5A-1QJ.text" = "Telephone";
+
+/*Class = "UITextField"; placeholder = "Apellidos"; ObjectID = "mHd-yu-7Ep";*/
+"mHd-yu-7Ep.placeholder" = "Surnames";
+
+/*Class = "UILabel"; text = "0,99€"; ObjectID = "mNQ-Ut-sYb";*/
+"mNQ-Ut-sYb.text" = "€ 0.99";
+
+/*Class = "UILabel"; text = "Enviar sugerencia"; ObjectID = "mPS-bM-mal";*/
+"mPS-bM-mal.text" = "Send suggestion";
+
+/*Class = "UILabel"; text = "Me han rechazado el acceso al evento ¿Qué pasa ahora?"; ObjectID = "mTS-Aj-2Qo";*/
+"mTS-Aj-2Qo.text" = "I have been denied access to the event What happens now?";
+
+/*Class = "UILabel"; text = "Nombre"; ObjectID = "mYa-hN-dwq";*/
+"mYa-hN-dwq.text" = "Name";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "mlE-Cy-EEU";*/
+"mlE-Cy-EEU.text" = "...";
+
+/*Class = "UILabel"; text = "0,99€"; ObjectID = "mn3-Eh-4fl";*/
+"mn3-Eh-4fl.text" = "€ 0.99";
+
+/*Class = "UILabel"; text = "DNI/NIE"; ObjectID = "my0-ZV-4bq";*/
+"my0-ZV-4bq.text" = "DNI / NIE";
+
+/*Class = "UILabel"; text = "No se ha creado aún quedadas en esta zona, vuelve a intentarlo de nuevo más adelante, igualmente, necesitamos tu ayuda, queremos saber si tienes interés en quedadas en esta zona."; ObjectID = "nBY-b9-vBw";*/
+"nBY-b9-vBw.text" = "No meeting has been created yet in this area, try again later, anyway, we need your help, we want to know if you are interested in meeting in this area.";
+
+/*Class = "UILabel"; text = "Madrid, España"; ObjectID = "oZP-af-gSO";*/
+"oZP-af-gSO.text" = "Madrid Spain";
+
+/*Class = "UILabel"; text = "¿Dónde te encuentras?"; ObjectID = "p9F-9J-Cow";*/
+"p9F-9J-Cow.text" = "Hi! Where are you?";
+
+/*Class = "UILabel"; text = "Mi cuenta"; ObjectID = "pby-35-fuC";*/
+"pby-35-fuC.text" = "My account";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "pfK-MD-oO8";*/
+"pfK-MD-oO8.text" = "...";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "pnv-Pj-Ml1";*/
+"pnv-Pj-Ml1.text" = "...";
+
+/*Class = "UILabel"; text = "Categoría"; ObjectID = "q4j-Hn-XaS";*/
+"q4j-Hn-XaS.text" = "Category";
+
+/*Class = "UITextField"; placeholder = "Nombre"; ObjectID = "q8w-ug-beY";*/
+"q8w-ug-beY.placeholder" = "Name";
+
+/*Class = "UILabel"; text = "Soporte al cliente"; ObjectID = "qLz-fw-bHT";*/
+"qLz-fw-bHT.text" = "Customer Support";
+
+/*Class = "UILabel"; text = "Edad"; ObjectID = "qUU-ed-eBK";*/
+"qUU-ed-eBK.text" = "Age";
+
+/*Class = "UILabel"; text = "¡Teneis que añadir esto!"; ObjectID = "qXG-jS-K3v";*/
+"qXG-jS-K3v.text" = "You have to add this!";
+
+/*Class = "UILabel"; text = "Subtotal:"; ObjectID = "qYp-rG-DTV";*/
+"qYp-rG-DTV.text" = "Subtotal:";
+
+/*Class = "UILabel"; text = "Tengo un código promocional"; ObjectID = "qvZ-rU-ZTi";*/
+"qvZ-rU-ZTi.text" = "I have a promo code";
+
+/*Class = "UIButton"; normalTitle = "Versión instalada"; ObjectID = "rqd-IW-hF6";*/
+"rqd-IW-hF6.normalTitle" = "Installed version";
+
+/*Class = "UILabel"; text = "15,00€"; ObjectID = "rsk-Du-SlE";*/
+"rsk-Du-SlE.text" = "€ 15.00";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "sNm-yn-46o";*/
+"sNm-yn-46o.text" = "...";
+
+/*Class = "UITextField"; placeholder = "Teléfono"; ObjectID = "sqr-Wr-3dv";*/
+"sqr-Wr-3dv.placeholder" = "Telephone";
+
+/*Class = "UILabel"; text = "Place Name"; ObjectID = "tCk-hg-9du";*/
+"tCk-hg-9du.text" = "Place Name";
+
+/*Class = "UILabel"; text = "Enviar un mensaje directo a Chocolate"; ObjectID = "tqm-W9-Dft";*/
+"tqm-W9-Dft.text" = "Send a direct message to Chocolate";
+
+/*Class = "UILabel"; text = "Email"; ObjectID = "uC5-z3-qQb";*/
+"uC5-z3-qQb.text" = "E-mail";
+
+/*Class = "UITextField"; placeholder = "Nombre"; ObjectID = "uU8-e1-BAq";*/
+"uU8-e1-BAq.placeholder" = "Name";
+
+/*Class = "UILabel"; text = "Historial de compras"; ObjectID = "uXW-ne-Pux";*/
+"uXW-ne-Pux.text" = "Shopping history";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "uYv-Cx-I9M";*/
+"uYv-Cx-I9M.text" = "...";
+
+/*Class = "UITextField"; placeholder = "Nickname"; ObjectID = "ugr-fb-Ky6";*/
+"ugr-fb-Ky6.placeholder" = "Nickname";
+
+/*Class = "UILabel"; text = "Entradas a la venta:"; ObjectID = "vp4-bA-LDM";*/
+"vp4-bA-LDM.text" = "Tickets for sale:";
+
+/*Class = "UILabel"; text = "Solicitar reembolso"; ObjectID = "vpU-gG-YQT";*/
+"vpU-gG-YQT.text" = "Request refund";
+
+/*Class = "UILabel"; text = "Subtotal:"; ObjectID = "vsj-yg-Wyi";*/
+"vsj-yg-Wyi.text" = "Subtotal:";
+
+/*Class = "UILabel"; text = "¡No hay discotecas cerca de tí!"; ObjectID = "w8l-kY-PBo";*/
+"w8l-kY-PBo.text" = "There are no clubs near you!";
+
+/*Class = "UILabel"; text = "Gestionas o eres dueño de un bar/pub y quieres poner a la venta consumiciones y
+reservas."; ObjectID = "wFZ-JQ-S09";*/
+"wFZ-JQ-S09.text" = "You manage or own a bar / pub and want to sell drinks and\nBookings.";
+
+/*Class = "UILabel"; text = "Top 10 cosas que no sabías al salir de fiesta por las noches."; ObjectID = "wfg-1h-eT1";*/
+"wfg-1h-eT1.text" = "Top 10 things you didn't know when partying at night.";
+
+/*Class = "UILabel"; text = "..."; ObjectID = "wkf-Vt-VJd";*/
+"wkf-Vt-VJd.text" = "...";
+
+/*Class = "UILabel"; text = "Envío de emails promocionales"; ObjectID = "x1c-IA-eXw";*/
+"x1c-IA-eXw.text" = "Promotional emails";
+
+/*Class = "UILabel"; text = "Un momento..."; ObjectID = "x2C-hF-o3Q";*/
+"x2C-hF-o3Q.text" = "Just a moment ...";
+
+/*Class = "UILabel"; text = "Adjunta la screenshot con el mensaje que le has enviado a la sala para poder validar tu contribución."; ObjectID = "xfA-eY-gMH";*/
+"xfA-eY-gMH.text" = "Attach the screenshot with the message that you have sent to the room to validate your contribution.";
+
+/*Class = "UILabel"; text = "x6"; ObjectID = "y5a-Og-m1n";*/
+"y5a-Og-m1n.text" = "x6";
+
+/*Class = "UILabel"; text = "Gestionas eventos multitudinarios y quieres poner a la venta las entradas."; ObjectID = "ypn-aQ-Nn8";*/
+"ypn-aQ-Nn8.text" = "You manage massive events and want to put tickets on sale.";
+
+/*Class = "UILabel"; text = "¿Cuántas entradas necesitas?"; ObjectID = "z67-Di-D8J";*/
+"z67-Di-D8J.text" = "How many tickets do you need?";
+"guj-7s-b64.normalTitle" = "Notifications will appear here important about your account";

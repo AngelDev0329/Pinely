@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CellAddPhoto" customModule="Pinely" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="126" height="126"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b1U-2Y-pUS">
+                    <rect key="frame" x="10" y="10" width="106" height="106"/>
+                    <color key="backgroundColor" name="AddPhotoBackground"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="dropShadow" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PhotoAdd" translatesAutoresizingMaskIntoConstraints="NO" id="jeH-e5-2aB">
+                    <rect key="frame" x="-4" y="-4" width="134" height="134"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOY-Uv-WAf">
+                    <rect key="frame" x="-4" y="-4" width="134" height="134"/>
+                    <connections>
+                        <action selector="clickEnded" destination="jeH-e5-2aB" eventType="touchUpOutside" id="JeC-Ip-eTo"/>
+                        <action selector="clickEnded" destination="jeH-e5-2aB" eventType="touchUpInside" id="t1f-qW-5v0"/>
+                        <action selector="clickStarted" destination="jeH-e5-2aB" eventType="touchDown" id="fMZ-Zd-8DE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="jeH-e5-2aB" secondAttribute="trailing" constant="-4" id="3no-91-r60"/>
+                <constraint firstItem="b1U-2Y-pUS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="5G8-K9-U2D"/>
+                <constraint firstAttribute="bottom" secondItem="ZOY-Uv-WAf" secondAttribute="bottom" constant="-4" id="BIN-vM-4g2"/>
+                <constraint firstAttribute="bottom" secondItem="b1U-2Y-pUS" secondAttribute="bottom" constant="10" id="H2L-iM-aDB"/>
+                <constraint firstItem="jeH-e5-2aB" firstAttribute="top" secondItem="ZOY-Uv-WAf" secondAttribute="top" id="LIU-7U-oPn"/>
+                <constraint firstItem="jeH-e5-2aB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-4" id="NxM-6Y-rEP"/>
+                <constraint firstItem="ZOY-Uv-WAf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-4" id="TB7-vb-QlU"/>
+                <constraint firstItem="ZOY-Uv-WAf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-4" id="WX2-wN-LJz"/>
+                <constraint firstItem="jeH-e5-2aB" firstAttribute="trailing" secondItem="ZOY-Uv-WAf" secondAttribute="trailing" id="aD5-Mx-oPt"/>
+                <constraint firstItem="jeH-e5-2aB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="-4" id="bS3-Hu-cVx"/>
+                <constraint firstItem="jeH-e5-2aB" firstAttribute="bottom" secondItem="ZOY-Uv-WAf" secondAttribute="bottom" id="idj-cU-0oS"/>
+                <constraint firstItem="jeH-e5-2aB" firstAttribute="leading" secondItem="ZOY-Uv-WAf" secondAttribute="leading" id="jeh-Yl-yNC"/>
+                <constraint firstItem="b1U-2Y-pUS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="mLr-db-1q8"/>
+                <constraint firstAttribute="bottom" secondItem="jeH-e5-2aB" secondAttribute="bottom" constant="-4" id="oR2-jf-6D8"/>
+                <constraint firstAttribute="trailing" secondItem="b1U-2Y-pUS" secondAttribute="trailing" constant="10" id="riC-1p-frM"/>
+                <constraint firstAttribute="trailing" secondItem="ZOY-Uv-WAf" secondAttribute="trailing" constant="-4" id="yeY-tu-hFV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="vShadeFrame" destination="b1U-2Y-pUS" id="a5f-uY-wqW"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="108"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="PhotoAdd" width="44" height="44"/>
+        <namedColor name="AddPhotoBackground">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

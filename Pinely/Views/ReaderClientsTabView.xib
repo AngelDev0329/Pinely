@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReaderClientsTabView" customModule="Pinely" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="nt7-g8-9Wm"/>
+                <outlet property="cvClients" destination="h46-iV-DdU" id="lTv-BW-1i6"/>
+                <outlet property="lblAllScannedText" destination="auR-jz-97A" id="EMA-T6-res"/>
+                <outlet property="lblAllScannedTitle" destination="1we-qY-72X" id="Pkx-jT-jBI"/>
+                <outlet property="vAllScanned" destination="vNi-pK-dpq" id="UWW-7Y-Y8d"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="h46-iV-DdU">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" name="MainBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="amG-IA-h4M">
+                        <size key="itemSize" width="374" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="100"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="x1q-v6-Y0h"/>
+                        <outlet property="delegate" destination="-1" id="bP7-Lv-2TE"/>
+                    </connections>
+                </collectionView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vNi-pK-dpq">
+                    <rect key="frame" x="97" y="235" width="220" height="306.5"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AllScanned" translatesAutoresizingMaskIntoConstraints="NO" id="LQW-dr-SDr">
+                            <rect key="frame" x="11" y="0.0" width="198" height="198"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="198" id="JY4-Po-8hR"/>
+                                <constraint firstAttribute="width" constant="198" id="X75-mL-dup"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Eres increíble!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1we-qY-72X">
+                            <rect key="frame" x="68" y="230" width="84.5" height="16"/>
+                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
+                            <color key="textColor" name="MainForegroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No hay más entradas por validar ahora toca celebrar." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auR-jz-97A">
+                            <rect key="frame" x="0.0" y="276" width="220" height="30.5"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
+                            <color key="textColor" name="MainForegroundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="auR-jz-97A" secondAttribute="trailing" id="30L-gu-EXW"/>
+                        <constraint firstAttribute="bottom" secondItem="auR-jz-97A" secondAttribute="bottom" id="6qR-Sa-zRa"/>
+                        <constraint firstItem="auR-jz-97A" firstAttribute="top" secondItem="1we-qY-72X" secondAttribute="bottom" constant="30" id="8fG-WQ-LWp"/>
+                        <constraint firstItem="LQW-dr-SDr" firstAttribute="top" secondItem="vNi-pK-dpq" secondAttribute="top" id="T1a-gX-1J9"/>
+                        <constraint firstItem="LQW-dr-SDr" firstAttribute="centerX" secondItem="vNi-pK-dpq" secondAttribute="centerX" id="VeI-mw-kGV"/>
+                        <constraint firstAttribute="width" constant="220" id="bie-0R-5kj"/>
+                        <constraint firstItem="auR-jz-97A" firstAttribute="leading" secondItem="vNi-pK-dpq" secondAttribute="leading" id="pCU-Q9-50w"/>
+                        <constraint firstItem="1we-qY-72X" firstAttribute="centerX" secondItem="vNi-pK-dpq" secondAttribute="centerX" id="qaM-00-0fb"/>
+                        <constraint firstItem="1we-qY-72X" firstAttribute="top" secondItem="LQW-dr-SDr" secondAttribute="bottom" constant="32" id="vnT-jI-r3O"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="h46-iV-DdU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3ZU-LM-S1j"/>
+                <constraint firstItem="vNi-pK-dpq" firstAttribute="centerX" secondItem="h46-iV-DdU" secondAttribute="centerX" id="Npj-du-oYL"/>
+                <constraint firstItem="vNi-pK-dpq" firstAttribute="centerY" secondItem="h46-iV-DdU" secondAttribute="centerY" constant="-60" id="him-hc-2rz"/>
+                <constraint firstAttribute="trailing" secondItem="h46-iV-DdU" secondAttribute="trailing" id="lFJ-GF-xsK"/>
+                <constraint firstAttribute="bottom" secondItem="h46-iV-DdU" secondAttribute="bottom" id="vgg-SS-81q"/>
+                <constraint firstItem="h46-iV-DdU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zAH-Ua-Oia"/>
+            </constraints>
+            <point key="canvasLocation" x="140.57971014492756" y="107.8125"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AllScanned" width="198" height="198"/>
+        <namedColor name="MainBackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MainForegroundColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

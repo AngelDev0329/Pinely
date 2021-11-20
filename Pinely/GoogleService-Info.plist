@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>142494413585-dosnkoj2b56vkd5ps6687ihae0nos9dg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.142494413585-dosnkoj2b56vkd5ps6687ihae0nos9dg</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>142494413585-c31ih6bosdmgp0r7guq2njarq843aogc.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDiizqyGw657TxASTaTHymQsl2bOyfrjMM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>142494413585</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.pinely</string>
+	<key>PROJECT_ID</key>
+	<string>pinely-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pinely-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:142494413585:ios:357ecf07c4e1a46cf0d2b0</string>
+	<key>DATABASE_URL</key>
+	<string>https://pinely-app.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-3475312350010640~9324279618</string>
+</dict>
+</plist>

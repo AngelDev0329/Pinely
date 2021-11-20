@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  Pinely
+
+  Created by Francisco de Asis Jimenez Tirado on 14/11/20.
+  Copyright © 2020 Francisco de Asis Jimenez Tirado. All rights reserved.
+*/
+NSCameraUsageDescription = "In order to scan your credit card or documents we need to access your camera";
+NSLocationWhenInUseUsageDescription = "In order to show the best results we need permission to obtain your location";
+NSPhotoLibraryUsageDescription = "In order to upload photos we need permissions to access your gallery";
+NSBluetoothPeripheralUsageDescription = "In order to send a more complete report we need permissions to access your nearby Bluetooth devices";
+NSBluetoothAlwaysUsageDescription = "In order to send a security report we need permissions to access your Bluetooth devices";
+NSMicrophoneUsageDescription = "In order to send voice notes we need permission to access your microphone";

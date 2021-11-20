@@ -1,0 +1,52 @@
+included:
+  - Pinely
+
+excluded:
+  - Pods
+  - /Pods
+  - ./Pods
+  - ../Pods
+  - Cortex
+  - Gallery
+  - CountryPickerView
+
+disabled_rules:
+  function_parameter_count
+
+cyclomatic_complexity:
+  warning: 15
+  error: 25
+
+line_length:
+  warning: 150
+  error: 200
+
+function_body_length:
+  warning: 50
+  error: 100
+
+identifier_name:
+  min_length:
+    error: 4
+  excluded:
+    - id
+    - x
+    - y
+    - i
+    - j
+    - hex
+    - red
+    - row
+    - tag
+    - url
+    - uid
+    - msg
+    - ip
+    - UID
+    - NIF
+    - cif
+    - raw
+    - cvc
+    - map
+    - age
+    - dni

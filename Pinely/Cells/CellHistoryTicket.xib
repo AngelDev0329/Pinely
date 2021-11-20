@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CellHistoryTicket" customModule="Pinely" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="128"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9OL-OL-aJK">
+                    <rect key="frame" x="8" y="6" width="342" height="116"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlaceShadow" translatesAutoresizingMaskIntoConstraints="NO" id="qIR-tu-2Lx">
+                            <rect key="frame" x="-12" y="-10.5" width="366" height="137"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nTi-Iq-Czc">
+                            <rect key="frame" x="0.0" y="0.0" width="342" height="116"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Lc-1J-Apk">
+                            <rect key="frame" x="12" y="88" width="260" height="12"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4TV-qM-M7h">
+                            <rect key="frame" x="12" y="70" width="260" height="16"/>
+                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x6" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XC-EX-8HN">
+                            <rect key="frame" x="278" y="84" width="30" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="I9p-im-bLM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconTickets" translatesAutoresizingMaskIntoConstraints="NO" id="GXu-0l-3bR">
+                            <rect key="frame" x="314" y="84" width="16" height="16"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="16" id="Ihk-aE-82b"/>
+                                <constraint firstAttribute="width" constant="16" id="uHo-5C-Tbp"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J90-36-qMV">
+                            <rect key="frame" x="0.0" y="0.0" width="342" height="116"/>
+                            <connections>
+                                <action selector="clickEnded" destination="9OL-OL-aJK" eventType="touchUpInside" id="Qiw-dN-5j8"/>
+                                <action selector="clickEnded" destination="9OL-OL-aJK" eventType="touchUpOutside" id="omL-QK-IXG"/>
+                                <action selector="clickStarted" destination="9OL-OL-aJK" eventType="touchDown" id="FYf-jE-8Rc"/>
+                                <action selector="placeSelected" destination="iN0-l3-epB" eventType="touchUpInside" id="wYc-c8-4KD"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="4TV-qM-M7h" firstAttribute="leading" secondItem="9OL-OL-aJK" secondAttribute="leading" constant="12" id="2yj-QD-AcI"/>
+                        <constraint firstItem="GXu-0l-3bR" firstAttribute="bottom" secondItem="5Lc-1J-Apk" secondAttribute="bottom" id="BCf-yO-5rc"/>
+                        <constraint firstAttribute="trailing" secondItem="J90-36-qMV" secondAttribute="trailing" id="BXb-VK-MSe"/>
+                        <constraint firstItem="nTi-Iq-Czc" firstAttribute="leading" secondItem="9OL-OL-aJK" secondAttribute="leading" id="EBr-2m-z5y"/>
+                        <constraint firstItem="qIR-tu-2Lx" firstAttribute="centerY" secondItem="nTi-Iq-Czc" secondAttribute="centerY" id="EYO-iR-TLm"/>
+                        <constraint firstItem="qIR-tu-2Lx" firstAttribute="centerX" secondItem="nTi-Iq-Czc" secondAttribute="centerX" id="IXC-LQ-eOd"/>
+                        <constraint firstItem="J90-36-qMV" firstAttribute="leading" secondItem="9OL-OL-aJK" secondAttribute="leading" id="Lt2-Nr-sfD"/>
+                        <constraint firstItem="GXu-0l-3bR" firstAttribute="leading" secondItem="5XC-EX-8HN" secondAttribute="trailing" constant="6" id="S34-BU-sR8"/>
+                        <constraint firstItem="GXu-0l-3bR" firstAttribute="centerY" secondItem="5XC-EX-8HN" secondAttribute="centerY" id="UQT-HQ-fcW"/>
+                        <constraint firstAttribute="bottom" secondItem="5Lc-1J-Apk" secondAttribute="bottom" constant="16" id="Ud9-F4-GP3"/>
+                        <constraint firstItem="5XC-EX-8HN" firstAttribute="leading" secondItem="5Lc-1J-Apk" secondAttribute="trailing" constant="6" id="buP-fJ-J8F"/>
+                        <constraint firstItem="J90-36-qMV" firstAttribute="top" secondItem="9OL-OL-aJK" secondAttribute="top" id="c5h-mk-K80"/>
+                        <constraint firstItem="5Lc-1J-Apk" firstAttribute="top" secondItem="4TV-qM-M7h" secondAttribute="bottom" constant="2" id="d5k-Ht-IwV"/>
+                        <constraint firstAttribute="trailing" secondItem="nTi-Iq-Czc" secondAttribute="trailing" id="fX3-jz-nPT"/>
+                        <constraint firstItem="qIR-tu-2Lx" firstAttribute="width" secondItem="nTi-Iq-Czc" secondAttribute="width" multiplier="1.07" id="frd-j3-dKs"/>
+                        <constraint firstAttribute="bottom" secondItem="J90-36-qMV" secondAttribute="bottom" id="jWQ-WF-0ID"/>
+                        <constraint firstItem="qIR-tu-2Lx" firstAttribute="height" secondItem="nTi-Iq-Czc" secondAttribute="height" multiplier="1.18" id="n6e-cf-E6V"/>
+                        <constraint firstItem="5Lc-1J-Apk" firstAttribute="leading" secondItem="9OL-OL-aJK" secondAttribute="leading" constant="12" id="pbw-d1-vKN"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5Lc-1J-Apk" secondAttribute="trailing" constant="12" id="qvF-4L-l7I"/>
+                        <constraint firstItem="5XC-EX-8HN" firstAttribute="leading" secondItem="4TV-qM-M7h" secondAttribute="trailing" constant="6" id="ufE-ZV-tk8"/>
+                        <constraint firstAttribute="trailing" secondItem="GXu-0l-3bR" secondAttribute="trailing" constant="12" id="vst-HY-ceb"/>
+                        <constraint firstAttribute="bottom" secondItem="nTi-Iq-Czc" secondAttribute="bottom" id="wwJ-Ct-XaJ"/>
+                        <constraint firstItem="nTi-Iq-Czc" firstAttribute="top" secondItem="9OL-OL-aJK" secondAttribute="top" id="yW2-Kc-TBp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="9OL-OL-aJK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Nkh-kj-XQv"/>
+                <constraint firstAttribute="trailing" secondItem="9OL-OL-aJK" secondAttribute="trailing" constant="8" id="mRk-SX-OIv"/>
+                <constraint firstAttribute="bottom" secondItem="9OL-OL-aJK" secondAttribute="bottom" constant="6" id="oei-52-utM"/>
+                <constraint firstItem="9OL-OL-aJK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="6" id="q0e-2y-myH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="ivBackground" destination="nTi-Iq-Czc" id="6Dc-Z0-Cs4"/>
+                <outlet property="lblCount" destination="5XC-EX-8HN" id="Hzj-zM-rpF"/>
+                <outlet property="lblSubTitle" destination="5Lc-1J-Apk" id="q6n-kt-Mpd"/>
+                <outlet property="lblTitle" destination="4TV-qM-M7h" id="6GR-3o-QzZ"/>
+                <outlet property="vContainer" destination="9OL-OL-aJK" id="KlP-A5-PgJ"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="108"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="IconTickets" width="16" height="16"/>
+        <image name="PlaceShadow" width="397" height="173"/>
+    </resources>
+</document>

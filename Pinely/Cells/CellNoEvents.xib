@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CellNoEvents" customModule="Pinely" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="358" height="440"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDF-xk-utl">
+                    <rect key="frame" x="0.0" y="0.0" width="358" height="440"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Esta sala no vende entradas con Pinely!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6E-4c-L9e">
+                            <rect key="frame" x="45" y="182" width="268" height="16"/>
+                            <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7iK-8C-U4f">
+                            <rect key="frame" x="112" y="15" width="134" height="140"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NoTickets" translatesAutoresizingMaskIntoConstraints="NO" id="ja9-uF-wEa">
+                                    <rect key="frame" x="0.0" y="0.0" width="134" height="140"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="ja9-uF-wEa" firstAttribute="top" secondItem="7iK-8C-U4f" secondAttribute="top" id="F8q-tN-l02"/>
+                                <constraint firstItem="ja9-uF-wEa" firstAttribute="leading" secondItem="7iK-8C-U4f" secondAttribute="leading" id="Ywf-CN-9M3"/>
+                                <constraint firstAttribute="height" constant="140" id="hXt-Su-w05"/>
+                                <constraint firstAttribute="width" constant="134" id="l5X-Qh-G25"/>
+                                <constraint firstAttribute="bottom" secondItem="ja9-uF-wEa" secondAttribute="bottom" id="nk4-GQ-BH5"/>
+                                <constraint firstAttribute="trailing" secondItem="ja9-uF-wEa" secondAttribute="trailing" id="p3g-GF-MX1"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BfY-ou-VvP">
+                            <rect key="frame" x="20" y="223" width="318" height="78"/>
+                            <attributedString key="attributedText">
+                                <fragment>
+                                    <string key="content">Envía un mensaje directo en Instagram a Chocolate para decirles que quieres compras las entradas desde  Pinely, haz una captura de pantalla y envíanoslo,  cuando la sala empiece a vender entradas añadiremos  2€ en tu monedero.*</string>
+                                    <attributes>
+                                        <font key="NSFont" metaFont="system"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GgK-8M-9hu">
+                            <rect key="frame" x="0.0" y="0.0" width="358" height="440"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rbi-FY-BHD">
+                            <rect key="frame" x="12" y="316" width="334" height="60"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ButtonFrameBlack" translatesAutoresizingMaskIntoConstraints="NO" id="1Jv-Cq-LTY">
+                                    <rect key="frame" x="0.0" y="0.0" width="334" height="60"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enviar un mensaje directo a Chocolate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPd-Pk-LBc">
+                                    <rect key="frame" x="38" y="22" width="258.5" height="16"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="13"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCS-Ju-AeL">
+                                    <rect key="frame" x="0.0" y="0.0" width="334" height="60"/>
+                                    <connections>
+                                        <action selector="clickEnded" destination="rbi-FY-BHD" eventType="touchUpInside" id="laz-WU-jUP"/>
+                                        <action selector="clickEnded" destination="rbi-FY-BHD" eventType="touchUpOutside" id="vcI-MR-jnz"/>
+                                        <action selector="clickStarted" destination="rbi-FY-BHD" eventType="touchDown" id="ewT-xM-IIQ"/>
+                                        <action selector="contactDirectly" destination="iN0-l3-epB" eventType="touchUpInside" id="orb-wT-3Ny"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" name="MainBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="1Jv-Cq-LTY" secondAttribute="trailing" id="Ky6-VL-oKc"/>
+                                <constraint firstItem="1Jv-Cq-LTY" firstAttribute="top" secondItem="rbi-FY-BHD" secondAttribute="top" id="PMc-lC-aOK"/>
+                                <constraint firstAttribute="trailing" secondItem="NCS-Ju-AeL" secondAttribute="trailing" id="Xmi-UI-1YR"/>
+                                <constraint firstItem="NCS-Ju-AeL" firstAttribute="leading" secondItem="rbi-FY-BHD" secondAttribute="leading" id="Yar-q5-2qd"/>
+                                <constraint firstAttribute="width" secondItem="rbi-FY-BHD" secondAttribute="height" multiplier="383:69" id="c3G-lm-osW"/>
+                                <constraint firstItem="pPd-Pk-LBc" firstAttribute="centerY" secondItem="rbi-FY-BHD" secondAttribute="centerY" id="edl-Mn-Ceo"/>
+                                <constraint firstItem="NCS-Ju-AeL" firstAttribute="top" secondItem="rbi-FY-BHD" secondAttribute="top" id="hnk-iW-6be"/>
+                                <constraint firstAttribute="bottom" secondItem="NCS-Ju-AeL" secondAttribute="bottom" id="mBc-cm-lNX"/>
+                                <constraint firstItem="1Jv-Cq-LTY" firstAttribute="leading" secondItem="rbi-FY-BHD" secondAttribute="leading" id="pBc-7N-aeW"/>
+                                <constraint firstAttribute="bottom" secondItem="1Jv-Cq-LTY" secondAttribute="bottom" id="q5B-ya-14I"/>
+                                <constraint firstItem="pPd-Pk-LBc" firstAttribute="centerX" secondItem="rbi-FY-BHD" secondAttribute="centerX" id="qtP-Jh-WPJ"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*Limitado solo para las 50 primeras personas." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBJ-AZ-j5V">
+                            <rect key="frame" x="20" y="388" width="318" height="16"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="MainBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="GgK-8M-9hu" secondAttribute="trailing" id="6mX-zi-NUP"/>
+                        <constraint firstItem="rbi-FY-BHD" firstAttribute="top" secondItem="BfY-ou-VvP" secondAttribute="bottom" constant="15" id="7BI-C3-7La"/>
+                        <constraint firstItem="P6E-4c-L9e" firstAttribute="centerY" secondItem="fDF-xk-utl" secondAttribute="centerY" constant="-30" id="Fwf-8n-Q2N"/>
+                        <constraint firstItem="BfY-ou-VvP" firstAttribute="leading" secondItem="fDF-xk-utl" secondAttribute="leading" constant="20" id="Nfm-Wn-B4l"/>
+                        <constraint firstItem="rbi-FY-BHD" firstAttribute="leading" secondItem="fDF-xk-utl" secondAttribute="leading" constant="12" id="PW6-jw-9gf"/>
+                        <constraint firstAttribute="trailing" secondItem="rbi-FY-BHD" secondAttribute="trailing" constant="12" id="XJ5-mn-qay"/>
+                        <constraint firstItem="GgK-8M-9hu" firstAttribute="leading" secondItem="fDF-xk-utl" secondAttribute="leading" id="aCX-gT-fOX"/>
+                        <constraint firstItem="sBJ-AZ-j5V" firstAttribute="leading" secondItem="fDF-xk-utl" secondAttribute="leading" constant="20" id="dSG-8r-itA"/>
+                        <constraint firstItem="GgK-8M-9hu" firstAttribute="top" secondItem="fDF-xk-utl" secondAttribute="top" id="eCg-Bs-sRm"/>
+                        <constraint firstItem="P6E-4c-L9e" firstAttribute="top" secondItem="7iK-8C-U4f" secondAttribute="bottom" constant="27" id="fHJ-Gf-czM"/>
+                        <constraint firstAttribute="trailing" secondItem="sBJ-AZ-j5V" secondAttribute="trailing" constant="20" id="hnF-4N-ndu"/>
+                        <constraint firstAttribute="trailing" secondItem="BfY-ou-VvP" secondAttribute="trailing" constant="20" id="nQI-dF-TKV"/>
+                        <constraint firstAttribute="bottom" secondItem="GgK-8M-9hu" secondAttribute="bottom" id="qLd-Yh-M1w"/>
+                        <constraint firstItem="BfY-ou-VvP" firstAttribute="top" secondItem="P6E-4c-L9e" secondAttribute="bottom" constant="25" id="s74-T3-v98"/>
+                        <constraint firstItem="7iK-8C-U4f" firstAttribute="centerX" secondItem="fDF-xk-utl" secondAttribute="centerX" id="vq0-bc-oXE"/>
+                        <constraint firstItem="sBJ-AZ-j5V" firstAttribute="top" secondItem="rbi-FY-BHD" secondAttribute="bottom" constant="12" id="wCi-mu-0Xo"/>
+                        <constraint firstItem="P6E-4c-L9e" firstAttribute="centerX" secondItem="fDF-xk-utl" secondAttribute="centerX" id="x5U-EK-dtO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fDF-xk-utl" secondAttribute="trailing" id="e7p-Jt-uwT"/>
+                <constraint firstItem="fDF-xk-utl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ndA-M1-IFV"/>
+                <constraint firstAttribute="bottom" secondItem="fDF-xk-utl" secondAttribute="bottom" id="sse-7v-z4k"/>
+                <constraint firstItem="fDF-xk-utl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vkW-5u-s7u"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblContactDirectly" destination="pPd-Pk-LBc" id="2V4-3u-0v5"/>
+                <outlet property="lblHead" destination="P6E-4c-L9e" id="Oek-Sf-3DH"/>
+                <outlet property="lblLimitation" destination="sBJ-AZ-j5V" id="GOl-5l-E3y"/>
+                <outlet property="lblPlaceNoPinely" destination="BfY-ou-VvP" id="2xL-em-mKk"/>
+                <outlet property="lcMiddle" destination="Fwf-8n-Q2N" id="l4v-54-bVg"/>
+                <outlet property="lcTop" destination="F8q-tN-l02" id="08U-TE-6IW"/>
+                <outlet property="vButtonContainer" destination="rbi-FY-BHD" id="zov-pR-DuA"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="108"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ButtonFrameBlack" width="383" height="69"/>
+        <image name="NoTickets" width="134" height="140"/>
+        <namedColor name="MainBackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

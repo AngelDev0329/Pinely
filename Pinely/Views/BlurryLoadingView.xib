@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BlurryLoadingView" customModule="BennyBox" customModuleProvider="target">
+            <connections>
+                <outlet property="aiLoadingView" destination="QXB-S7-LKM" id="gCv-Dx-cIs"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="dAN-mR-BZi"/>
+                <outlet property="vLoadingBlurView" destination="NcL-EY-jaC" id="5Sq-jw-snN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.85000002384185791" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NcL-EY-jaC" customClass="UIVisualEffectView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXB-S7-LKM" customClass="ICDMaterialActivityIndicatorView">
+                    <rect key="frame" x="187" y="428" width="40" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="2Id-dj-hUH"/>
+                        <constraint firstAttribute="width" constant="40" id="oFX-u8-gtC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="NcL-EY-jaC" secondAttribute="trailing" id="96z-XI-BaE"/>
+                <constraint firstItem="NcL-EY-jaC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Dq1-pl-7Ca"/>
+                <constraint firstAttribute="bottom" secondItem="NcL-EY-jaC" secondAttribute="bottom" id="KA8-yA-s3D"/>
+                <constraint firstItem="QXB-S7-LKM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Zak-am-wMd"/>
+                <constraint firstItem="NcL-EY-jaC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vgD-xs-hyD"/>
+                <constraint firstItem="QXB-S7-LKM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="zYk-Ar-bG7"/>
+            </constraints>
+            <point key="canvasLocation" x="140.57971014492756" y="124.55357142857142"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,148 @@
+/* 
+  Localizable.strings
+  Pinely
+*/
+
+"%d of %d" = "%d de %d";
+
+"tab.popular" = "POPULAR 🔥";
+"tab.disco" = "DISCOTECAS";
+"tab.bars" = "BARES & PUBS";
+"tab.exclusive" = "EXCLUSIVE";
+"loading" = "Cargando...";
+"searchsomething" = "Buscar algo...";
+"near" = "Cerca";
+"in" = "en";
+"buytickets" = "Estamos comprando tus\nentradas, un momento...";
+"charged_failed" = "El cobro en la tarjeta ha sido rechazada por la entidad bancaria, contacta la entidad emisora de la tarjeta para obtener más información sobre este rechazo, inténtalo de nuevo o utiliza otro método de pago";
+"connection_failed" = "Lamentablemente algo ha fallado en nuestros sistemas, visita status.pinely.app para estar al tanto e inténtalo de nuevo más adelante";
+"event_finished_error" = "No se pueden validar/rechazar entradas por que el evento ya ha finalizado";
+"event_not_started_error" = "No se pueden validar/rechazar entradas por que el evento todavía no ha comenzado";
+"ticket_not_found_error" = "Este código QR no existe en Pinely, salvo error, esta entrada es falsa y es una práctica habitual para intentar de acceder al evento sin comprar la entrada";
+"credit_card_not_valid_stripe" = "La tarjeta que estás intentado de añadir ha sido rechazada por nuestra pasarela de pagos, esto se debe a que la tarjeta no se puede utilizar para realizar pagos o que has introducido incorrectamente algun dato";
+"token_not_available" = "Token no disponible, reporta este fallo a soporte para podamos solucionarlo";
+"insufficient_funds" = "La tarjeta que has utilizado no tiene fondos suficientes para poder realizar la compra, inténtalo de nuevo o utiliza otro método de pago";
+"payment_reject_stripe" = "El cobro en la tarjeta ha sido rechazada por la entidad bancaria, contacta la entidad emisora de la tarjeta para obtener más información sobre este rechazo, inténtalo de nuevo o utiliza otro método de pago";
+"duplicate_transaction_error" = "Se ha rechazado la compra por que hemos detectado una compra idéntica en tu cuenta hace unos segundos, si se ha tratado de un error inténtalo de nuevo pasado unos minutos";
+"fraudulent_payment_error" = "Hemos rechazado la compra por que consideramos que el método de pago utilizado es de alto riesgo, inténtalo de nuevo utilizando otro método de pago válido";
+"lost_card_error" = "Hemos rechazado la compra por que la tarjeta que has utilizado para hacer la compra ha sido reportada como perdida, inténtalo de nuevo utilizando otro método de pago";
+"stolen_card_error" = "Hemos rechazado la compra por que la tarjeta que has utilizado para hacer la compra ha sido reportada por la entidad bancaria como robada, inténtalo de nuevo utilizando otro método de pago";
+"auth_error_stripe" = "Hemos rechazado la compra por que no has completado correctamente la verificación de tu entidad bancaria, inténtalo de nuevo o utiliza otro método de pago";
+"error_verification_stripe" = "Hemos rechazado tu compra por que el cobro no se ha podido verificar correctamente con la entidad bancaria, inténtalo de nuevo o utiliza otro método de pago";
+"expired_card_error" = "La tarjeta que has utilizado para hacer la compra ha caducado, añade un nuevo método de pago válido e inténtalo de nuevo";
+"incorrect_number_stripe_error" = "Hemos rechazado tu compra por que la numeración de tu tarjeta es incorrecta, inténtalo de nuevo utilizando otro método de pago";
+"incorrect_cvv_stripe_error" = "Hemos rechazado tu compra por que el CVC de tu tarjeta es incorrecta, inténtalo de nuevo utilizando otro método de pago";
+"incorrect_expiration_stripe_error" = "Hemos rechazado tu compra por que la fecha de expiración de tu tarjeta es incorrecta, inténtalo de nuevo utilizando otro método de pago";
+"no_popular_near" = "¡No hay nada destacado en esta zona!";
+"no_disco_near" = "¡No hay discotecas publicadas en esta zona!";
+"no_bares_near" = "¡No hay bares publicados en esta zona!";
+"no_exclusive_near" = "¡No hay sitios exclusivos en esta zona!";
+
+"button.upload" = "Subir";
+"button.cancel" = "Cancelar";
+"button.update" = "Actualizar";
+"button.back" = "Volver";
+"button.reenter" = "Reintentar";
+"button.continue" = "Continuar";
+"button.settings" = "Ajustes";
+"button.select" = "Seleccionar";
+"button.accept" = "Aceptar";
+"button.understood" = "Entendido";
+"button.ok" = "OK";
+"button.plusInfo" = "+ Información";
+"button.next" = "Siguiente";
+
+"alert.ops" = "Ops!";
+"alert.onemoment" = "¡Un momento!";
+"alert.needupdate" = "La versión que tienes instalada es demasiado antigua, actualiza Pinely para poder continuar";
+"alert.cardRejected" = "La tarjeta que estás intentado de añadir ha sido rechazada por nuestra pasarela de pagos, esto se debe a que la tarjeta no se puede utilizar para realizar pagos o que has introducido incorrectamente algun dato.";
+"alert.inRevision" = "En revisión";
+"alert.photoReview" = "Tu foto tiene un borde naranja, esto indica de que está en proceso de revisión por parte de la sala, te avisaremos cuando lo aprueben.";
+"alert.requireLocation" = "Actualmente no nos has concedido el permiso para obtener tu ubicación, para concedernos ese permiso tienes que ir a los ajustes de Pinely, 'Localización' y activar 'Cuando se use la app'";
+"alert.excellent" = "¡Excelente!";
+"alert.idNeedsVerification" = "Tu identidad ha sido verificada correctamente, esto nos permite mejorar la confianza y seguridad de la comunidad";
+"alert.documentInRevision" = "Aun estamos revisando la documentación para verificar tu identidad, te mantendremos al tanto";
+"alert.changeAvatar" = "Cambiar avatar";
+"alert.selectAvatarPhoto" = "Selecciona una foto de tu galería para personalizar al máximo tu perfil";
+"alert.wallet" = "Monedero";
+"alert.walletDescription" = "Utilizaremos el saldo disponible para tu próxima compra, por el momento no podrás añadir saldo a tu monedero, la única forma de obtenerlo será gracias a tus contribuciones.";
+"alert.promoCode" = "Código promocional";
+"alert.correctPromoCode" = "Has canjeado correctamente un código promocional";
+"alert.incorrectPromoCode" = "El código promocional que has introducido no es correcto o no es válido para este evento";
+"alert.accountInRevision" = "Hemos verificado tu cuenta, por lo que no podrás cambiar tus datos personales";
+"alert.attention" = "¡Atención!";
+"alert.incorrectPhoneNumber" = "Revisa el número telefónico donde hemos enviado el código, si te has equivocado vuelve atrás e introduce nuevamente el número de forma correcta. Si el número telefónico es correcto, simplemente espera unos segundos más hasta que lo recibas.";
+"alert.verifyEmail" = "Verificar email";
+"alert.willSendEmail" = "Enviaremos un email a $email con un enlace para poder verificar tu email.";
+"alert.emailSent" = "Se ha enviado un email a tu cuenta";
+"alert.documentInReview" = "El documento que has enviado está siendo revisado por nuestro departamento legal, te mantendremos al tanto";
+"alert.documentRejected" = "Documentación rechazada";
+"alert.documentRejectedDescription" = "El equipo de soporte ha rechazado la documentación que has enviado por el siguiente motivo: $rejectReason, te recomendamos enviar la documentación correcta y reintentar el proceso para su aprobación";
+"alert.identification" = "Identificación";
+"alert.indicateDNI" = "Indícanos el DNI de la persona que va a firmar el documento";
+"alert.whoSigns" = "¿Quién firma?";
+"alert.nameOfSigningPerson" = "Indícanos el nombre completo de la persona que va a firmar este documento";
+"alert.ticketAlreadyValidated" = "Esta entrada ya ha sido validada antes, revisa la casilla Fecha de validación para saber a que hora fué validada";
+"alert.careful" = "¡Cuidado!";
+"alert.informationVerified" = "Pinely ha verificado la información de este cliente, los datos que aparecen de este cliente en esta entrada se pueden consideran verídicos";
+
+"warning.enteremail" = "Para poder iniciar sesión necesitas introducir un email válido";
+"warning.enterpassword" = "Para poder iniciar sesión necesitas introducir una contraseña válida";
+"warning.forgotPassword" = "Para poder enviar un recordatorio de tu contraseña introduce un email";
+"warning.enterCard" = "Introduce la numeración de tu tarjeta correctamente";
+"warning.wrongNumber" = "Numeración incorrecta";
+
+"error.usernotclient" = "Tu cuenta tiene un rango asignado, esto se debe a que ya estás vendiendo entradas o a que eres encargado de una sala";
+"error.blockedAfterFail" = "Hemos bloqueado el acceso a esta cuenta temporalmente debido a múltiples intentos de inicio de sesión. Inténtalo de nuevo más tarde";
+"error.wrongName" = "Nombre incorrecto";
+"error.enterCorrectCardName" = "Asegúrate de que el titular de la tarjeta coincida correctamente con el nombre que aparece en la tarjeta";
+"error.wrongCVV" = "CVV incorrecto";
+"error.enterCorrectCVV" = "Asegúrate de introducir el código de seguridad correctamente";
+"error.piRefNotAvailable" = "Payment reference is not available";
+"error.promoCodeIncorrectForEntry" = "El código promocional no es válido para esta entrada";
+"error.promoCodeOnlyFirstPurchase" = "Este código promocional solo es válido para tu primera compra";
+"error.cardRejectedByBank" = "El cobro en la tarjeta ha sido rechazada por la entidad bancaria, contacta la entidad emisora de la tarjeta para obtener más información sobre este rechazo, inténtalo de nuevo o utiliza otro método de pago";
+"error.rangeNotClient" = "Tu cuenta tiene un rango asignado, esto se debe a que ya estás vendiendo entradas o a que eres encargado de una sala";
+"error.networkError" = "Compruebe su conexión a Internet e inténtalo de nuevo.";
+"error.eventNotFound" = "El propietario de este evento ha cancelado la venta de entradas temporalmente, sentimos las molestias";
+"error.passwordInvalid" = "La contraseña que has introducido es incorrecta, inténtalo de nuevo o haz click sobre 'He olvidado mi contraseña' si continuas sin poder acceder a tu cuenta";
+"error.noSuchUser" = "El email que has introducido no se encuentra registrado en la plataforma, inténtalo de nuevo utilizando otro email distinto";
+"error.badEmail" = "El email que has introducido no es válido, inténtalo de nuevo";
+"error.mobileInAnotherAccount" = "Hemos detectado que el número telefónico que has introducido ya ha sido verificado previamente en otra cuenta diferente a la tuya, inténtalo de nuevo utilizando otro número telefónico";
+"error.previouslyVerified" = "Tu cuenta ya ha pasado correctamente por el proceso de verificación telefónico en otro dispositivo, no es necesario que continúes";
+"error.tryIn5Mins" = "Por seguridad hemos bloqueado el proceso de verificación temporalmente, inténtalo de nuevo pasados unos minutos";
+"error.mobileNotValid" = "El número telefónico que has introducido no existe o no es válido, revisa los números introducidos y vuelve a internarlo de nuevo";
+"error.userIsBanned" = "Hemos rechazado la compra por que tu cuenta contiene infracciones de nuestros Términos y Condiciones, no intente registrar otras cuentas para eludir este bloqueo, ya que si detectamos coincidencias también sufrirán las mismas condiciones";
+"error.invalidUserStatus" = "Ha ocurrido un error mientras hacíamos unas comprobaciones, inténtalo de nuevo más tarde.";
+"error.accountNotReadyToSell" = "Tu cuenta no se encuentra activa para vender, por lo que todavía no puedes crear nuevas salas, sube la documentación pendiente y no olvides de añadir un método de pago, si ya lo has hecho, danos un poco de tiempo para poder comprobar la documentación, generalmente no solemos tardar más de 24 horas pero en momentos excepcionales podemos tardar un poco más, te pedimos disculpas";
+"error.usernameIsBusy" = "El usuario que intentas de registrar ya ha sido utilizado por otro cliente, inténtalo con otro usuario.";
+"error.cantGetToken" = "Can't get token. Try to log out and log in again";
+"error.emailIsOccupied" = "El email $email ya ha sido registrado por otra cuenta, intenta registrar tu cuenta utilizando otro email";
+"error.errorCreatingAccount" = "Ha ocurrido un error mientras creábamos tu cuenta, inténtalo de nuevo más tarde.";
+"error.checkError" = "Ha ocurrido un error mientras hacíamos unas comprobaciones, inténtalo de nuevo más tarde.";
+"error.unknownServerError" = "Unknown server error";
+"error.incorrectUserToken" = "Hemos cancelado la compra por que el token de usuario no coincide, vuélvelo a intentar de nuevo.";
+"error.validationOutOfLimit" = "La hora límite para poder validar esta entrada ya ha concluido ¿Quieres continuar?";
+"error.rejectionOutOfLimit" = "La hora límite para poder rechazar esta entrada ya ha concluido ¿Quieres continuar?";
+
+"success.contributionInRevision" = "Revisaremos la información que nos has enviado y la añadiremos lo antes posible, si tienes algún otro lugar que merezca la pena no dudes en ayudarnos.";
+
+"info.locationTitle" = "Ubicación de compra";
+"info.locationDescription" = "Por motivos de seguridad podrás ver la ubicación desde donde se realizó esta compra.";
+"info.facturaTitle" = "Tu factura";
+"info.facturaDescription" = "Aquí podrás visualizar y descargar la factura de esta compra, si necesitas una factura fiscal, haz click sobre el botón 'Soporte al cliente'.";
+
+"loading.addingCard" = "Estamos añadiendo\ntu tarjeta, un momento...";
+"loading.signContract" = "Estamos haciendo unas\ncomprobaciones, un momento...";
+"loading.creatingSala" = "Estamos creando tu\nnueva sala, un momento...";
+"loading.creatingAccount" = "Estamos creando tu\ncuenta, un momento...";
+
+"share.place.title" = "$roomName en Pinely 🍍";
+"share.place.description" = "Vista el perfil de $roomName para ver los eventos a la venta";
+"share.place.text" = "Te comparto el enlace de Pinely 🍍 para que puedas ver las entradas que se están vendiendo en $roomName 🎟️, además puedes ver las fotos de los últimos eventos e información sobre como ir -> $url";
+"share.event.text" = "Te comparto el enlace de Pinely 🍍 para que puedas ver las entradas que se están vendiendo en $eventName de $roomName 🎟️, además puedes ver las fotos de los últimos eventos e información sobre como ir -> $url";
+
+"sendToInstagram" = "Envía un mensaje directo en Instagram a $localName para decirles que quieres compras las entradas desde  Pinely, haz una captura de pantalla y envíanoslo,  cuando la sala empiece a vender entradas añadiremos ";
+"changePassword" = "Cambiar contraseña";
+"willSendEmailToChangePassword" = "Enviaremos un email a $email con un enlace para poder cambiar tu contraseña.";
+"supportRequestDescription" = "Escríbenos tu consulta, un encargado se pondrá en contacto contigo por email a $email_user";

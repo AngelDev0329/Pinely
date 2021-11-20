@@ -1,0 +1,6 @@
+framework module AFWebViewController {
+  umbrella header "AFWebViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
